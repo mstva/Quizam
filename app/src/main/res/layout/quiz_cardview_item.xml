@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz_card"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="120dp"
+    android:layout_height="130dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="@color/colorCard"
+    tools:ignore="MissingDefaultResource"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/quiz_icon"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/quiz_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/quiz_title"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

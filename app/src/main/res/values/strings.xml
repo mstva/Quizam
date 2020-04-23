@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quizam</string>
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="question">question</string>
+    <string name="check_answer">check answer</string>
+    <string name="start_the_quiz">Start The Quiz</string>
+    <string name="choose_your_quiz">Choose Your Quiz!</string>
+    <string name="quiz_title">Quiz Title</string>
+    <string name="welcome">welcome</string>
+    <string name="home">Home</string>
+    <string name="flash">Continue</string>
+    <string name="your_quiz_score">Your Quiz Score</string>
+    <string name="quiz_score">Geography</string>
+    <string name="back_button">Back Button</string>
+</resources>
